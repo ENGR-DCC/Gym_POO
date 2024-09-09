@@ -17,7 +17,6 @@ public class Rutina {
         this.objetivo = objetivo;
     }
 
-    // Métodos
     public void mostrarRutina() {
         System.out.println("Rutina: " + nombre);
         for (Ejercicio ejercicio : ejercicios) {
