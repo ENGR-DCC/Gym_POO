@@ -15,9 +15,8 @@ public class Equipo {
         this.ultimoMantenimiento = ultimoMantenimiento;
     }
 
-    // Métodos
     public void registrarMantenimiento() {
-        this.ultimoMantenimiento = new Date(); // Fecha actual
+        this.ultimoMantenimiento = new Date();
     }
 
     public String getEstado() {
