@@ -5,7 +5,7 @@ import java.util.List;
 public class Membresia {
     private String tipo;
     private double precio;
-    private int duracion; // en meses
+    private int duracion;
     private List<String> beneficios;
 
     public Membresia(String tipo, double precio, int duracion, List<String> beneficios) {
@@ -15,7 +15,6 @@ public class Membresia {
         this.beneficios = beneficios;
     }
 
-    // Métodos
     public double calcularCosto() {
         return precio;
     }
