@@ -16,7 +16,6 @@ public class ClaseGrupal {
         this.entrenador = entrenador;
     }
 
-    // Métodos
     public void inscribirCliente(Cliente cliente) {
         clientesInscritos.add(cliente);
     }
@@ -26,7 +25,7 @@ public class ClaseGrupal {
     }
 
     public boolean consultarDisponibilidad() {
-        // Lógica para consultar disponibilidad
+        
         return true;
     }
 }
