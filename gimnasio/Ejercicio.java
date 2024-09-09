@@ -7,7 +7,7 @@ public class Ejercicio {
     private String musculoSecundario;
     private int repeticiones;
     private int series;
-    private int descanso; // en segundos
+    private int descanso;
 
     public Ejercicio(String nombre, String tipo, String musculoPrincipal, String musculoSecundario, int repeticiones, int series, int descanso) {
         this.nombre = nombre;
@@ -19,7 +19,6 @@ public class Ejercicio {
         this.descanso = descanso;
     }
 
-    // Métodos
     public void mostrarDetalles() {
         System.out.println("Ejercicio: " + nombre + ", Reps: " + repeticiones + ", Series: " + series + ", Descanso: " + descanso + " seg");
     }
