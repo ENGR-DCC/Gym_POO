@@ -14,7 +14,6 @@ public class Cliente extends Persona {
         this.nivelExperiencia = nivelExperiencia;
     }
 
-    // Métodos
     public void asignarMembresia(Membresia membresia) {
         this.membresia = membresia;
     }
@@ -26,6 +25,4 @@ public class Cliente extends Persona {
     public List<Rutina> consultarHistorial() {
         return historialRutinas;
     }
-
-    // Getters y Setters adicionales si es necesario
 }
