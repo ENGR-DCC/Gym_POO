@@ -11,7 +11,6 @@ public class Persona {
         this.genero = genero;
     }
 
-    // Getters y Setters
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }
 
